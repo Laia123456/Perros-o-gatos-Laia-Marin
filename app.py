@@ -1,4 +1,5 @@
 import streamlit as st
+import model_from_json
 from tensorflow.keras.models import model_from_json
 from PIL import Image, UnidentifiedImageError
 import numpy as np
