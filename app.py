@@ -1,4 +1,3 @@
-model.save("model_gats_gossos.h5")
 import streamlit as st
 import model_from_json
 from tensorflow.keras.models import load_model
