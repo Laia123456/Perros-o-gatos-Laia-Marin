@@ -1,6 +1,8 @@
+model.save("model_gats_gossos.h5")
 import streamlit as st
 import model_from_json
-from tensorflow.keras.models import model_from_json
+from tensorflow.keras.models import load_model
+model = load_model("model_gats_gossos.h5")
 from PIL import Image, UnidentifiedImageError
 import numpy as np
 import os
