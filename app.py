@@ -1,6 +1,5 @@
 import streamlit as st
-from tensorflow.keras.models import load_model
-model = load_model("model_gats_gossos.h5")
+from tensorflow.keras.models import model_from_json
 from PIL import Image, UnidentifiedImageError
 import numpy as np
 import os
